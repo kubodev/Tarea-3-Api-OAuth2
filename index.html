@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/signin.css" />
+
+    <title>Hello, world!</title>
+</head>
+
+<body class="text-center">
+    <main class="form-signin">
+        <form>
+            <img class="mb-4" src="img/logo-escalab.svg" alt="" width="72" height="57" />
+            <h1 class="h3 mb-3 fw-normal">Ingresa tu usuario y contraseña</h1>
+
+            <div class="form-floating">
+                <input type="text" class="form-control" id="user" placeholder="name@example.com" />
+                <label for="floatingInput">Usuario</label>
+            </div>
+            <div class="form-floating">
+                <input type="password" class="form-control" id="pass" placeholder="Password" autocomplete="off" />
+                <label for="floatingPassword">Constraseña</label>
+            </div>
+
+            <button class="w-100 btn btn-lg btn-primary" id="login">Ingresa</button>
+            <div class="usuario">
+                <div class="user">
+                    <p class="user-title">Usuario1</p>
+                    <p class="user-text">user: adalovelace</p>
+                    <p class="user-text">Pasword: 1234d4</p>
+                </div>
+                <div class="user">
+                    <p class="user-title">Usuario2</p>
+                    <p class="user-text">user: dualipa</p>
+                    <p class="user-text">Pasword: du4321</p>
+                </div>
+            </div>
+            <p class="mt-5 mb-3 text-muted">© Moises Magna 2022</p>
+        </form>
+    </main>
+
+    <script src="js/init.js" type="module"></script>
+</body>
+
+</html>
